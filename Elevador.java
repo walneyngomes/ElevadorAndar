@@ -13,9 +13,10 @@ public class Elevador {
 
 		for (int i = 0; i < andares.length; i++) {
 			televisor.setAndar(andares[i]);
-			
+		
 			// PARADA
 		}
+			this. noticia();
 
 	}
 	public void noticia()
