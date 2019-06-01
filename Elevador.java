@@ -13,12 +13,15 @@ public class Elevador {
 
 		for (int i = 0; i < andares.length; i++) {
 			televisor.setAndar(andares[i]);
-			televisor.notificar();
+			
 			// PARADA
 		}
 
 	}
-
+	public void noticia()
+	{
+		televisor.notificar();
+	}
 	public Televisor getTelevisor() {
 		return televisor;
 	}
